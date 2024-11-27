@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FinalProjectMVC.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FinalProjectMVC.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\wwwroot\\assets\\css\\blog.css",
+      "PackagePath": "staticwebassets\\assets\\css\\blog.css"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\wwwroot\\assets\\css\\contact.css",
+      "PackagePath": "staticwebassets\\assets\\css\\contact.css"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\wwwroot\\assets\\css\\home.css",
+      "PackagePath": "staticwebassets\\assets\\css\\home.css"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\wwwroot\\assets\\img\\maxresdefault-removebg-preview.png",
+      "PackagePath": "staticwebassets\\assets\\img\\maxresdefault-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\wwwroot\\assets\\js\\blog.js",
+      "PackagePath": "staticwebassets\\assets\\js\\blog.js"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\wwwroot\\assets\\js\\contact.js",
+      "PackagePath": "staticwebassets\\assets\\js\\contact.js"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\wwwroot\\assets\\js\\home.js",
+      "PackagePath": "staticwebassets\\assets\\js\\home.js"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FinalProjectMVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FinalProjectMVC.props",
+      "PackagePath": "build\\FinalProjectMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FinalProjectMVC.props",
+      "PackagePath": "buildMultiTargeting\\FinalProjectMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FinalProjectMVC.props",
+      "PackagePath": "buildTransitive\\FinalProjectMVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

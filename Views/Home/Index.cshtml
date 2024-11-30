@@ -1,6 +1,4 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿
 
 <body>
    
@@ -10,14 +8,19 @@
 <!-- First form of the page -->
 
     <div class="deals-container">
-        <div class="deals-text">
-            <h2>FOR RENTAL CARS</h2>
-            <h1>BEST DEALS</h1>
-            <p>Sales Up %45 Off<br>All Rental Cars Start from 49$</p>
-        </div>
-        <div class="car-image">
-            <img src="/assets/img/maxresdefault-removebg-preview.png" alt="Car">
-        </div>
+            @foreach (var preview in Model)
+            {
+                <div class="deals-text">
+                    <h1>@preview.Title</h1>
+                    <h2>@preview.Description </h2>
+                </div>
+                <div class="car-image">
+                    @if (!string.IsNullOrEmpty(preview.ImagePath))
+                    {
+                        <img src="@preview.ImagePath" alt="Car" class="car-img">
+                    }
+                </div>
+            }
         <div class="search-container">
             <div class="search-header">
                 <h3>Search for Cheap Rental Cars Wherever You Are</h3>
@@ -91,33 +94,49 @@
 
 
 
-    <div class="info-container">
-        <div class="info-content">
-            <h2>What Do You Know About Us</h2>
-            <h1>WHO WE ARE ?</h1>
-            <p>
-                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.
-            </p>
-            <ul>
-                <li>✔ Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li>✔ Proin tempus sapien non iaculis pretium.</li>
-            </ul>
-            <div class="info-buttons">
-                <button class="btn-red">SEE ALL VEHICLES</button>
-                <button class="btn-black">RESERVATION NOW</button>
+
+        <div class="info-container">
+            <div class="info-content">
+                <h2>@Model.Title</h2>
+                <h1>@Model.Subtitle</h1>
+                <p>@Model.Description</p>
+                <ul>
+                    @if (Model.Points != null && Model.Points.Any())
+                    {
+                        @foreach (var point in Model.Points)
+                        {
+                            <li>✔ @point</li>
+                        }
+                    }
+                    else
+                    {
+                        <li>No points available.</li>
+                    }
+                </ul>
+                <div class="info-buttons">
+                    <a href="/vehicles" class="btn-red">SEE ALL VEHICLES</a>
+                    <a href="/reservation" class="btn-black">RESERVATION NOW</a>
+                </div>
+            </div>
+
+            <div class="simple-slider">
+                <div class="simple-slides">
+                    @if (Model.ImageUrls != null && Model.ImageUrls.Any())
+                    {
+                        @foreach (var imageUrl in Model.ImageUrls)
+                        {
+                            <img src="@imageUrl" alt="Slider Image">
+                        }
+                    }
+                    else
+                    {
+                        <p>No images available.</p>
+                    }
+                </div>
+                <button class="prev" onclick="prevSlide()">&#10094;</button>
+                <button class="next" onclick="nextSlide()">&#10095;</button>
             </div>
         </div>
-        <div class="simple-slider">
-            <div class="simple-slides">
-              <img src="https://jthemes.net/themes/html/rentit/assets/img/preview/slider/slide-775x500x1.jpg" alt="Image 1">
-              <img src="https://jthemes.net/themes/html/rentit/assets/img/preview/slider/slide-775x500x1.jpg" alt="Image 2">
-              <img src="https://jthemes.net/themes/html/rentit/assets/img/preview/slider/slide-775x500x1.jpg" alt="Image 3">
-            </div>
-            <button class="prev" onclick="prevSlide()">&#10094;</button>
-            <button class="next" onclick="nextSlide()">&#10095;</button>
-          </div>
-    
-    </div>
 
 
 

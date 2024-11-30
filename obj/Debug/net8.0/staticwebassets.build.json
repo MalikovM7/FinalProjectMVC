@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CaWgcAXWAYX8gCf/N1xDApaq0ACErREJrfJvcZhuEck=",
+  "Hash": "Hp4kG5o7ynBzjf22oTAYsv3LB8EjRd6ibJYZBEizGUo=",
   "Source": "FinalProjectMVC",
   "BasePath": "_content/FinalProjectMVC",
   "Mode": "Default",
@@ -1250,6 +1250,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\css\\home.css"
+    },
+    {
+      "Identity": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\wwwroot\\assets\\img\\car-img.png",
+      "SourceId": "FinalProjectMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\wwwroot\\",
+      "BasePath": "_content/FinalProjectMVC",
+      "RelativePath": "assets/img/car-img.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\car-img.png"
     },
     {
       "Identity": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\wwwroot\\assets\\img\\maxresdefault-removebg-preview.png",

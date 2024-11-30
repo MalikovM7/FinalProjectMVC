@@ -3,8 +3,172 @@
   "WorkspaceRootPath": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\services\\interfaces\\iaboutusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:services\\interfaces\\iaboutusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\services\\interfaces\\ihomepreviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:services\\interfaces\\ihomepreviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\services\\implementations\\aboutusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:services\\implementations\\aboutusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\services\\implementations\\homepreviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:services\\implementations\\homepreviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\models\\aboutusviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:models\\aboutusviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\viewmodels\\home\\homepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:viewmodels\\home\\homepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\services\\implementations\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:services\\implementations\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\areas\\identity\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:areas\\identity\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\areas\\identity\\data\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:areas\\identity\\data\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Migrations\\20241130134455_afterdel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241130134455_afterdel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Migrations\\20241130133516_aboutusview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241130133516_aboutusview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Migrations\\20241130131630_aboutusmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241130131630_aboutusmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Migrations\\20241130130935_aboutusview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241130130935_aboutusview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\models\\homepreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:models\\homepreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\configurations\\faqconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:configurations\\faqconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\configurations\\contactformconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:configurations\\contactformconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\configurations\\blogpostconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:configurations\\blogpostconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\models\\statistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:models\\statistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\configurations\\carconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:configurations\\carconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\configurations\\featureconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:configurations\\featureconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\helpers\\enums\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:helpers\\enums\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\models\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:models\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\models\\faq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:models\\faq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Migrations\\20241130104722_db2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241130104722_db2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\configurations\\reservationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:configurations\\reservationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\configurations\\driverlicenseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:configurations\\driverlicenseconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\models\\driverlicense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:models\\driverlicense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\configurations\\statisticconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:configurations\\statisticconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\models\\feature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:models\\feature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\wwwroot\\assets\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -17,26 +181,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\wwwroot\\assets\\js\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:wwwroot\\assets\\js\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\helpers\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:helpers\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -55,36 +199,8 @@
       "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\views\\account\\verifyemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:views\\account\\verifyemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\helpers\\enums\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:helpers\\enums\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\services\\implementations\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:services\\implementations\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\viewmodels\\account\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -99,22 +215,6 @@
       "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:viewmodels\\account\\adjustrolesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\areas\\identity\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:areas\\identity\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\areas\\identity\\data\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:areas\\identity\\data\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\migrations\\20241127113950_fullname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:migrations\\20241127113950_fullname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\migrations\\20241126183438_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:migrations\\20241126183438_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -123,8 +223,8 @@
       "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\migrations\\20241127122115_third.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:migrations\\20241127122115_third.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|c:\\users\\vuqar\\desktop\\final code\\finalprojectmvc\\migrations\\20241130134718_afterdel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DCE3D6F-C8B8-496C-8B0C-DD3EB13D834B}|FinalProjectMVC.csproj|solutionrelative:migrations\\20241130134718_afterdel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -134,7 +234,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -142,33 +242,499 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "blog.css",
-              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\wwwroot\\assets\\css\\blog.css",
-              "RelativeDocumentMoniker": "wwwroot\\assets\\css\\blog.css",
-              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\wwwroot\\assets\\css\\blog.css",
-              "RelativeToolTip": "wwwroot\\assets\\css\\blog.css",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-27T15:49:13.273Z",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwCMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T13:10:35.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "home.css",
-              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\wwwroot\\assets\\css\\home.css",
-              "RelativeDocumentMoniker": "wwwroot\\assets\\css\\home.css",
-              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\wwwroot\\assets\\css\\home.css",
-              "RelativeToolTip": "wwwroot\\assets\\css\\home.css",
-              "ViewState": "AQIAAC4DAAAAAAAAAAAswDsDAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-27T15:39:32.047Z",
-              "EditorCaption": ""
+              "Title": "IAboutUsService.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Services\\Interfaces\\IAboutUsService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IAboutUsService.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Services\\Interfaces\\IAboutUsService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IAboutUsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T13:11:31.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomePreviewService.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Services\\Implementations\\HomePreviewService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\HomePreviewService.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Services\\Implementations\\HomePreviewService.cs",
+              "RelativeToolTip": "Services\\Implementations\\HomePreviewService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T13:58:37.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AboutUsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Models\\AboutUsViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\AboutUsViewModel.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Models\\AboutUsViewModel.cs",
+              "RelativeToolTip": "Models\\AboutUsViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T13:08:04.872Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "AboutUsService.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Services\\Implementations\\AboutUsService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\AboutUsService.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Services\\Implementations\\AboutUsService.cs",
+              "RelativeToolTip": "Services\\Implementations\\AboutUsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T13:12:07.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IHomePreviewService.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Services\\Interfaces\\IHomePreviewService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IHomePreviewService.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Services\\Interfaces\\IHomePreviewService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IHomePreviewService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T13:11:35.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomePageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\ViewModels\\Home\\HomePageViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Home\\HomePageViewModel.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\ViewModels\\Home\\HomePageViewModel.cs",
+              "RelativeToolTip": "ViewModels\\Home\\HomePageViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T13:25:06.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-26T18:36:25.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20241130134455_afterdel.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Migrations\\20241130134455_afterdel.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241130134455_afterdel.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Migrations\\20241130134455_afterdel.cs",
+              "RelativeToolTip": "Migrations\\20241130134455_afterdel.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T13:44:56.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Areas\\Identity\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Areas\\Identity\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Areas\\Identity\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAA7wCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T18:14:53.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAkwGIAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:08:09.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Services\\Implementations\\EmailService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\EmailService.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Services\\Implementations\\EmailService.cs",
+              "RelativeToolTip": "Services\\Implementations\\EmailService.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:45:53.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Areas\\Identity\\Data\\AppUser.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Data\\AppUser.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Areas\\Identity\\Data\\AppUser.cs",
+              "RelativeToolTip": "Areas\\Identity\\Data\\AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T18:14:54.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAUwIoAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T13:29:19.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "20241130134718_afterdel.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Migrations\\20241130134718_afterdel.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241130134718_afterdel.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Migrations\\20241130134718_afterdel.cs",
+              "RelativeToolTip": "Migrations\\20241130134718_afterdel.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T13:47:18.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCgAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T18:15:42.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Models\\Car.cs",
+              "RelativeDocumentMoniker": "Models\\Car.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Models\\Car.cs",
+              "RelativeToolTip": "Models\\Car.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T11:47:41.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20241130133516_aboutusview.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Migrations\\20241130133516_aboutusview.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241130133516_aboutusview.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Migrations\\20241130133516_aboutusview.cs",
+              "RelativeToolTip": "Migrations\\20241130133516_aboutusview.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T13:35:16.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20241130131630_aboutusmodel.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Migrations\\20241130131630_aboutusmodel.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241130131630_aboutusmodel.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Migrations\\20241130131630_aboutusmodel.cs",
+              "RelativeToolTip": "Migrations\\20241130131630_aboutusmodel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T13:16:30.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20241130130935_aboutusview.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Migrations\\20241130130935_aboutusview.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241130130935_aboutusview.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Migrations\\20241130130935_aboutusview.cs",
+              "RelativeToolTip": "Migrations\\20241130130935_aboutusview.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T13:09:35.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HomePreview.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Models\\HomePreview.cs",
+              "RelativeDocumentMoniker": "Models\\HomePreview.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Models\\HomePreview.cs",
+              "RelativeToolTip": "Models\\HomePreview.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T12:26:28.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "Configurations\\UserConfiguration.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "Configurations\\UserConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T08:03:36.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FAQConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Configurations\\FAQConfiguration.cs",
+              "RelativeDocumentMoniker": "Configurations\\FAQConfiguration.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Configurations\\FAQConfiguration.cs",
+              "RelativeToolTip": "Configurations\\FAQConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T09:39:39.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ContactFormConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Configurations\\ContactFormConfiguration.cs",
+              "RelativeDocumentMoniker": "Configurations\\ContactFormConfiguration.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Configurations\\ContactFormConfiguration.cs",
+              "RelativeToolTip": "Configurations\\ContactFormConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T09:37:07.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BlogPostConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Configurations\\BlogPostConfiguration.cs",
+              "RelativeDocumentMoniker": "Configurations\\BlogPostConfiguration.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Configurations\\BlogPostConfiguration.cs",
+              "RelativeToolTip": "Configurations\\BlogPostConfiguration.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T12:08:11.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CarConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Configurations\\CarConfiguration.cs",
+              "RelativeDocumentMoniker": "Configurations\\CarConfiguration.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Configurations\\CarConfiguration.cs",
+              "RelativeToolTip": "Configurations\\CarConfiguration.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAQwDAAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T08:05:03.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "FeatureConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Configurations\\FeatureConfiguration.cs",
+              "RelativeDocumentMoniker": "Configurations\\FeatureConfiguration.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Configurations\\FeatureConfiguration.cs",
+              "RelativeToolTip": "Configurations\\FeatureConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T09:39:35.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Statistic.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Models\\Statistic.cs",
+              "RelativeDocumentMoniker": "Models\\Statistic.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Models\\Statistic.cs",
+              "RelativeToolTip": "Models\\Statistic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T09:33:21.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Services\\Interfaces\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Services\\Interfaces\\IEmailService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IEmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:45:29.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "FAQ.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Models\\FAQ.cs",
+              "RelativeDocumentMoniker": "Models\\FAQ.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Models\\FAQ.cs",
+              "RelativeToolTip": "Models\\FAQ.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T09:39:40.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Helpers\\Enums\\Roles.cs",
+              "RelativeDocumentMoniker": "Helpers\\Enums\\Roles.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Helpers\\Enums\\Roles.cs",
+              "RelativeToolTip": "Helpers\\Enums\\Roles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:08:36.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "BlogPost.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Models\\BlogPost.cs",
+              "RelativeDocumentMoniker": "Models\\BlogPost.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Models\\BlogPost.cs",
+              "RelativeToolTip": "Models\\BlogPost.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T09:33:14.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20241130104722_db2.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Migrations\\20241130104722_db2.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241130104722_db2.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Migrations\\20241130104722_db2.cs",
+              "RelativeToolTip": "Migrations\\20241130104722_db2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T10:47:22.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T07:07:00.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "Models\\Reservation.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Models\\Reservation.cs",
+              "RelativeToolTip": "Models\\Reservation.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBMAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T07:52:49.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DriverLicenseConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Configurations\\DriverLicenseConfiguration.cs",
+              "RelativeDocumentMoniker": "Configurations\\DriverLicenseConfiguration.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Configurations\\DriverLicenseConfiguration.cs",
+              "RelativeToolTip": "Configurations\\DriverLicenseConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T09:20:36.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "DriverLicense.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Models\\DriverLicense.cs",
+              "RelativeDocumentMoniker": "Models\\DriverLicense.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Models\\DriverLicense.cs",
+              "RelativeToolTip": "Models\\DriverLicense.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T09:40:30.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ReservationConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Configurations\\ReservationConfiguration.cs",
+              "RelativeDocumentMoniker": "Configurations\\ReservationConfiguration.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Configurations\\ReservationConfiguration.cs",
+              "RelativeToolTip": "Configurations\\ReservationConfiguration.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAACcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T09:41:16.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "StatisticConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Configurations\\StatisticConfiguration.cs",
+              "RelativeDocumentMoniker": "Configurations\\StatisticConfiguration.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Configurations\\StatisticConfiguration.cs",
+              "RelativeToolTip": "Configurations\\StatisticConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T09:45:00.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Models\\Payment.cs",
+              "RelativeToolTip": "Models\\Payment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T07:54:20.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Feature.cs",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Models\\Feature.cs",
+              "RelativeDocumentMoniker": "Models\\Feature.cs",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Models\\Feature.cs",
+              "RelativeToolTip": "Models\\Feature.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T09:33:16.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
               "Title": "home.js",
               "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\wwwroot\\assets\\js\\home.js",
               "RelativeDocumentMoniker": "wwwroot\\assets\\js\\home.js",
@@ -176,38 +742,23 @@
               "RelativeToolTip": "wwwroot\\assets\\js\\home.js",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-27T15:27:29.103Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T15:27:29.103Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAF8BAAAAAAAAAAAAAGgBAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-27T13:29:19.22Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 40,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAATAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAE0AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-26T18:15:11.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T18:15:11.705Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 45,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -215,12 +766,35 @@
               "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-27T11:58:32.651Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T11:58:32.651Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 42,
+              "Title": "home.css",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\wwwroot\\assets\\css\\home.css",
+              "RelativeDocumentMoniker": "wwwroot\\assets\\css\\home.css",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\wwwroot\\assets\\css\\home.css",
+              "RelativeToolTip": "wwwroot\\assets\\css\\home.css",
+              "ViewState": "AQIAAC4DAAAAAAAAAAAswDsDAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-27T15:39:32.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "blog.css",
+              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\wwwroot\\assets\\css\\blog.css",
+              "RelativeDocumentMoniker": "wwwroot\\assets\\css\\blog.css",
+              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\wwwroot\\assets\\css\\blog.css",
+              "RelativeToolTip": "wwwroot\\assets\\css\\blog.css",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-27T15:49:13.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
@@ -228,51 +802,11 @@
               "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-27T11:58:28.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T11:58:28.859Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBAAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T12:08:09.185Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AppSettings.cs",
-              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Helpers\\AppSettings.cs",
-              "RelativeDocumentMoniker": "Helpers\\AppSettings.cs",
-              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Helpers\\AppSettings.cs",
-              "RelativeToolTip": "Helpers\\AppSettings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T12:08:35.37Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IEmailService.cs",
-              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Services\\Interfaces\\IEmailService.cs",
-              "RelativeDocumentMoniker": "Services\\Interfaces\\IEmailService.cs",
-              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Services\\Interfaces\\IEmailService.cs",
-              "RelativeToolTip": "Services\\Interfaces\\IEmailService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T12:45:29.985Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 47,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -280,12 +814,11 @@
               "RelativeToolTip": "Views\\_ViewImports.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-27T15:04:27.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T15:04:27.25Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 48,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -293,12 +826,11 @@
               "RelativeToolTip": "Views\\_ViewStart.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-27T15:04:27.913Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T15:04:27.913Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 46,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
@@ -306,99 +838,11 @@
               "RelativeToolTip": "Views\\Shared\\Error.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-27T15:04:32.899Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T15:04:32.899Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T13:00:40.315Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Services\\Implementations\\EmailService.cs",
-              "RelativeDocumentMoniker": "Services\\Implementations\\EmailService.cs",
-              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Services\\Implementations\\EmailService.cs",
-              "RelativeToolTip": "Services\\Implementations\\EmailService.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAYwB4AAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T12:45:53.55Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAQwCYAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T18:15:42.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "Views\\Account\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-27T13:03:14.722Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-26T18:36:25.415Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Roles.cs",
-              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Helpers\\Enums\\Roles.cs",
-              "RelativeDocumentMoniker": "Helpers\\Enums\\Roles.cs",
-              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Helpers\\Enums\\Roles.cs",
-              "RelativeToolTip": "Helpers\\Enums\\Roles.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T12:08:36.684Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "Views\\Account\\Register.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACQAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-27T13:02:09.357Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 49,
               "Title": "VerifyEmail.cshtml",
               "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Views\\Account\\VerifyEmail.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\VerifyEmail.cshtml",
@@ -410,43 +854,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "20241127122115_third.cs",
-              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Migrations\\20241127122115_third.cs",
-              "RelativeDocumentMoniker": "Migrations\\20241127122115_third.cs",
-              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Migrations\\20241127122115_third.cs",
-              "RelativeToolTip": "Migrations\\20241127122115_third.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T12:21:15.854Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Areas\\Identity\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Areas\\Identity\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Areas\\Identity\\Data\\AppDbContext.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T18:14:53.393Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Areas\\Identity\\Data\\AppUser.cs",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Data\\AppUser.cs",
-              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Areas\\Identity\\Data\\AppUser.cs",
-              "RelativeToolTip": "Areas\\Identity\\Data\\AppUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T18:14:54.314Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 52,
               "Title": "AdjustRolesVM.cs",
               "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\ViewModels\\Account\\AdjustRolesVM.cs",
               "RelativeDocumentMoniker": "ViewModels\\Account\\AdjustRolesVM.cs",
@@ -458,7 +866,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 51,
               "Title": "LoginVM.cs",
               "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\ViewModels\\Account\\LoginVM.cs",
               "RelativeDocumentMoniker": "ViewModels\\Account\\LoginVM.cs",
@@ -470,7 +878,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 50,
               "Title": "RegisterVM.cs",
               "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\ViewModels\\Account\\RegisterVM.cs",
               "RelativeDocumentMoniker": "ViewModels\\Account\\RegisterVM.cs",
@@ -482,31 +890,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "20241127113950_fullname.cs",
-              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Migrations\\20241127113950_fullname.cs",
-              "RelativeDocumentMoniker": "Migrations\\20241127113950_fullname.cs",
-              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Migrations\\20241127113950_fullname.cs",
-              "RelativeToolTip": "Migrations\\20241127113950_fullname.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T11:39:50.293Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "20241126183438_first.cs",
-              "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Migrations\\20241126183438_first.cs",
-              "RelativeDocumentMoniker": "Migrations\\20241126183438_first.cs",
-              "ToolTip": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\Migrations\\20241126183438_first.cs",
-              "RelativeToolTip": "Migrations\\20241126183438_first.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T18:34:38.823Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 53,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -518,7 +902,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 54,
               "Title": "ScaffoldingReadMe.txt",
               "DocumentMoniker": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\ScaffoldingReadMe.txt",
               "RelativeDocumentMoniker": "ScaffoldingReadMe.txt",

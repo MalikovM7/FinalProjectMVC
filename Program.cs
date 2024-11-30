@@ -37,6 +37,8 @@ namespace FinalProjectMVC
 
 
             builder.Services.AddScoped<IEmailService, EmailService>();
+            builder.Services.AddScoped<IHomePreviewService, HomePreviewService>();
+            builder.Services.AddScoped<IAboutUsService, AboutUsService>();
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();

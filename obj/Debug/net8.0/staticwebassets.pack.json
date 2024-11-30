@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\assets\\css\\home.css"
     },
     {
+      "Id": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\wwwroot\\assets\\img\\car-img.png",
+      "PackagePath": "staticwebassets\\assets\\img\\car-img.png"
+    },
+    {
       "Id": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\wwwroot\\assets\\img\\maxresdefault-removebg-preview.png",
       "PackagePath": "staticwebassets\\assets\\img\\maxresdefault-removebg-preview.png"
     },

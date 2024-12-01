@@ -1,5 +1,4 @@
-﻿
-
+﻿@model FinalProjectMVC.ViewModels.Home.HomePageViewModel
 <body>
    
 <main> 
@@ -8,7 +7,7 @@
 <!-- First form of the page -->
 
     <div class="deals-container">
-            @foreach (var preview in Model)
+            @foreach (var preview in Model.Previews)
             {
                 <div class="deals-text">
                     <h1>@preview.Title</h1>
@@ -96,48 +95,48 @@
 
 
         <div class="info-container">
-            <div class="info-content">
-                <h2>@Model.Title</h2>
-                <h1>@Model.Subtitle</h1>
-                <p>@Model.Description</p>
-                <ul>
-                    @if (Model.Points != null && Model.Points.Any())
-                    {
-                        @foreach (var point in Model.Points)
-                        {
-                            <li>✔ @point</li>
-                        }
-                    }
-                    else
-                    {
-                        <li>No points available.</li>
-                    }
-                </ul>
-                <div class="info-buttons">
-                    <a href="/vehicles" class="btn-red">SEE ALL VEHICLES</a>
-                    <a href="/reservation" class="btn-black">RESERVATION NOW</a>
-                </div>
-            </div>
-
-            <div class="simple-slider">
-                <div class="simple-slides">
-                    @if (Model.ImageUrls != null && Model.ImageUrls.Any())
-                    {
-                        @foreach (var imageUrl in Model.ImageUrls)
-                        {
-                            <img src="@imageUrl" alt="Slider Image">
-                        }
-                    }
-                    else
-                    {
-                        <p>No images available.</p>
-                    }
-                </div>
-                <button class="prev" onclick="prevSlide()">&#10094;</button>
-                <button class="next" onclick="nextSlide()">&#10095;</button>
-            </div>
+            @if (Model.AboutUs != null && Model.AboutUs.Any())
+            {
+                foreach (var aboutUs in Model.AboutUs)
+                {
+                    <div class="info-content">
+                        <h2>@aboutUs.Title</h2>
+                        <h1>@aboutUs.Subtitle</h1>
+                        <p>@aboutUs.Description</p>
+                        <ul>
+                            @if (aboutUs.Points != null && aboutUs.Points.Any())
+                            {
+                                foreach (var point in aboutUs.Points)
+                                {
+                                    <li>✔ @point</li>
+                                }
+                            }
+                        </ul>
+                        <div class="info-buttons">
+                            <button class="btn-red">SEE ALL VEHICLES</button>
+                            <button class="btn-black">RESERVATION NOW</button>
+                        </div>
+                    </div>
+                    <div class="simple-slider">
+                        <div class="simple-slides">
+                            @if (aboutUs.ImageUrls != null && aboutUs.ImageUrls.Any())
+                            {
+                                foreach (var imageUrl in aboutUs.ImageUrls)
+                                {
+                                    <img src="@imageUrl" alt="Image">
+                                }
+                            }
+                        </div>
+                        <button class="prev" onclick="prevSlide()">&#10094;</button>
+                        <button class="next" onclick="nextSlide()">&#10095;</button>
+                    </div>
+                }
+            }
+            else
+            {
+                <p>No About Us content is available at the moment.</p>
+            }
         </div>
-
 
 
 
@@ -167,7 +166,7 @@
                 <button class="rent-btn">Rent It</button>
             </div>
             <div class="car-slide">
-                <img src="https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/images/17q2/678295/2018-bmw-530e-plug-in-hybrid-first-drive-review-car-and-driver-photo-681931-s-original.jpg?fill=1:1&resize=1200:*" alt="Car 2">
+                    <img src="https://media.ed.edmunds-media.com/bmw/5-series/2021/oem/2021_bmw_5-series_sedan_530e_fq_oem_1_600.jpg" alt="Car 2">
                 <h3>BMW 530e</h3>
                 <p>Starting at $80/day</p>
                 <button class="rent-btn">Rent It</button>
@@ -185,7 +184,7 @@
                 <button class="rent-btn">Rent It</button>
             </div>
             <div class="car-slide">
-                <img src="https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/images/17q2/678295/2018-bmw-530e-plug-in-hybrid-first-drive-review-car-and-driver-photo-681931-s-original.jpg?fill=1:1&resize=1200:*" alt="Car 2">
+                    <img src="https://media.ed.edmunds-media.com/bmw/5-series/2021/oem/2021_bmw_5-series_sedan_530e_fq_oem_1_600.jpg" alt="Car 2">
                 <h3>BMW 530e</h3>
                 <p>Starting at $80/day</p>
                 <button class="rent-btn">Rent It</button>
@@ -262,36 +261,29 @@
 
 <!-- FAQS -->
 
-    <div class="faq-container">
-        <h2>FAQs</h2>
-        <div class="faq-item">
-            <div class="faq-question">
-                <span>How can I drop the rental car?</span>
-                <button class="toggle-answer">-</button>
-            </div>
-            <div class="faq-answer">
-                <p>Duis bibendum diam non erat facilisis tincidunt. Fusce leo neque, lacinia at tempor vitae, porta at arcu. Vestibulum varius non dui at pulvinar. Ut egestas orci in quam sollicitudin aliquet.</p>
-            </div>
+        <div class="faq-container">
+            <h2>FAQs</h2>
+            @if (Model.FAQs != null && Model.FAQs.Any())
+            {
+                foreach (var faq in Model.FAQs)
+                {
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>@faq.Question</span>
+                            <button class="toggle-answer" onclick="toggleAnswer(this)">+</button>
+                        </div>
+                        <div class="faq-answer" style="display: none;">
+                            <p>@faq.Answer</p>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <p>No FAQs available at the moment.</p>
+            }
         </div>
-        <div class="faq-item">
-            <div class="faq-question">
-                <span>Where can I rent a car?</span>
-                <button class="toggle-answer">+</button>
-            </div>
-            <div class="faq-answer">
-                <p>Duis bibendum diam non erat facilisis tincidunt. Fusce leo neque, lacinia at tempor vitae, porta at arcu. Vestibulum varius non dui at pulvinar. Ut egestas orci in quam sollicitudin aliquet.</p>
-            </div>
         </div>
-        <div class="faq-item">
-            <div class="faq-question">
-                <span>If I crash a car. What happens?</span>
-                <button class="toggle-answer">+</button>
-            </div>
-            <div class="faq-answer">
-                <p>Duis bibendum diam non erat facilisis tincidunt. Fusce leo neque, lacinia at tempor vitae, porta at arcu. Vestibulum varius non dui at pulvinar. Ut egestas orci in quam sollicitudin aliquet.</p>
-            </div>
-        </div>
-    </div>
 
 <!-- Search Panel -->
 

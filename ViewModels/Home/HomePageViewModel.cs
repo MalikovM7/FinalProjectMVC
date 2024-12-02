@@ -6,7 +6,6 @@ namespace FinalProjectMVC.ViewModels.Home
     {
         public IEnumerable<HomePreview> Previews { get; set; }
         public IEnumerable<AboutUsViewModel> AboutUs { get; set; }
-
         public IEnumerable<FAQ> FAQs { get; set; }
     }
 }

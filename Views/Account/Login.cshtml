@@ -1,46 +1,165 @@
 ﻿@using FinalProjectMVC.ViewModels.Account
 @model LoginVM
 
-<div class="container mt-5">
-    <h1 class="text-center">Login</h1>
-    <div class="register-area">
-
-        @if (!ViewData.ModelState.IsValid)
-        {
-            <div class="card-body">
-                <div asp-validation-summary="All" class="alert alert-danger" role="alert"></div>
-            </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        /* Internal CSS for styling */
+        .container {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
         }
 
-        <form asp-controller="Account" asp-action="Login" method="post" class="register-form">
+        .register-area {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+        }
 
-            <label>
-                <p class="label-txt">ENTER YOUR EMAIL OR USERNAME</p>
-                <input asp-for="@Model.UsernameOrEmail" type="text" class="input">
-                <div class="line-box">
-                    <div class="line"></div>
+        .label-txt {
+            margin: 10px 0;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: none;
+            border-bottom: 2px solid #ccc;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+            .input:focus {
+                border-bottom: 2px solid #007bff;
+            }
+
+        .line-box {
+            position: relative;
+            height: 2px;
+        }
+
+        .line {
+            position: absolute;
+            height: 2px;
+            background: #007bff;
+            width: 0;
+            transition: width 0.4s ease-in-out;
+        }
+
+        .input:focus + .line-box .line {
+            width: 100%;
+        }
+
+        .register-password-eye,
+        .register-password-eye-blind {
+            cursor: pointer;
+            position: absolute;
+            right: 10px;
+            margin-top: -30px;
+            font-size: 20px;
+            color: #007bff;
+        }
+
+            .register-password-eye-blind.d-none {
+                display: none;
+            }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+            button:hover {
+                background: #0056b3;
+            }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+            a:hover {
+                text-decoration: underline;
+            }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Login</h1>
+        <div class="register-area">
+
+            @if (!ViewData.ModelState.IsValid)
+            {
+                <div class="card-body">
+                    <div asp-validation-summary="All" class="alert alert-danger" role="alert"></div>
                 </div>
-                <span asp-validation-for="@Model.UsernameOrEmail" style="text-align:left !important; display:block" class="text-danger"></span>
-            </label>
+            }
 
-            <label>
-                <p class="label-txt">ENTER YOUR PASSWORD</p>
-                <input asp-for="@Model.Password" class="input">
-                <i class="fa-solid fa-eye register-password-eye" style="cursor: pointer; margin-left:90%"></i>
-                <i class="fa-solid fa-eye-slash d-none register-password-eye-blind"></i>
+            <form asp-controller="Account" asp-action="Login" method="post" class="register-form">
+                <label>
+                    <p class="label-txt">ENTER YOUR EMAIL OR USERNAME</p>
+                    <input asp-for="UsernameOrEmail" type="text" class="input">
+                    <div class="line-box">
+                        <div class="line"></div>
+                    </div>
+                    <span asp-validation-for="UsernameOrEmail" style="text-align:left !important; display:block" class="text-danger"></span>
+                </label>
 
+                <label>
+                    <p class="label-txt">ENTER YOUR PASSWORD</p>
+                    <input asp-for="Password" type="password" class="input">
+                    <i class="fa-solid fa-eye register-password-eye" style="cursor: pointer;"></i>
+                    <i class="fa-solid fa-eye-slash d-none register-password-eye-blind"></i>
 
-                <div class="line-box">
-                    <div class="line"></div>
-                </div>
-                <span asp-validation-for="@Model.Password" style="text-align:left !important; display:block" class="text-danger"></span>
-            </label>
+                    <div class="line-box">
+                        <div class="line"></div>
+                    </div>
+                    <span asp-validation-for="Password" style="text-align:left !important; display:block" class="text-danger"></span>
+                </label>
 
-           
+                <a asp-controller="Account" asp-action="Register" class="mx-2">Register</a>
 
-            <a asp-controller="Account" asp-action="Register" class="mx-2">Register</a>
-
-            <button type="submit">Login</button>
-        </form>
+                <button type="submit">Login</button>
+            </form>
+        </div>
     </div>
-</div>
+
+    <script>
+        // JavaScript to toggle password visibility
+        document.addEventListener("DOMContentLoaded", function () {
+            const passwordInput = document.querySelector("input[name='Password']");
+            const eyeIcon = document.querySelector(".register-password-eye");
+            const eyeSlashIcon = document.querySelector(".register-password-eye-blind");
+
+            eyeIcon.addEventListener("click", function () {
+                passwordInput.type = passwordInput.type === "password" ? "text" : "password";
+                eyeIcon.classList.toggle("d-none");
+                eyeSlashIcon.classList.toggle("d-none");
+            });
+
+            eyeSlashIcon.addEventListener("click", function () {
+                passwordInput.type = passwordInput.type === "password" ? "text" : "password";
+                eyeIcon.classList.toggle("d-none");
+                eyeSlashIcon.classList.toggle("d-none");
+            });
+        });
+    </script>
+</body>
+</html>

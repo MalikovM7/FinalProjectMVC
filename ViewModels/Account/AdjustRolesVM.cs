@@ -1,8 +1,8 @@
-﻿using FinalProjectMVC.Areas.Identity.Data;
+﻿using FinalProjectMVC.Identity.Data;
 using Microsoft.AspNetCore.Identity;
 
 
-namespace MVC_Mini_project.ViewModels.Account
+namespace FinalProjectMVC.ViewModels.Account
 {
     public class AdjustRolesVM
     {

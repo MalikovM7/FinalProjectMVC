@@ -1,9 +1,9 @@
-﻿using FinalProjectMVC.Areas.Identity.Data;
-using FinalProjectMVC.ViewModels.Account;
+﻿using FinalProjectMVC.ViewModels.Account;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using FinalProjectMVC.Helpers.Enums;
 using FinalProjectMVC.Services.Interfaces;
+using FinalProjectMVC.Identity.Data;
 
 namespace FinalProjectMVC.Controllers
 {
@@ -19,7 +19,7 @@ namespace FinalProjectMVC.Controllers
             _userManager = userManager;
             _signInManager = signInManager;
             _roleManager = roleManager;
-            //_emailService = emailService;
+            _emailService = emailService;
         }
 
         [HttpPost]
@@ -68,7 +68,7 @@ namespace FinalProjectMVC.Controllers
                 return View();
             }
 
-            await _userManager.AddToRoleAsync(user, Roles.Member.ToString());
+            await _userManager.AddToRoleAsync(user, Roles.SuperAdmin.ToString());
 
             string token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
             string url = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, token }, Request.Scheme, Request.Host.ToString());
@@ -155,11 +155,12 @@ namespace FinalProjectMVC.Controllers
 
 
         [HttpGet]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> CreateRoles()
         {
-            foreach (var role in Enum.GetValues(typeof(Roles)))
+            foreach (Roles role in Enum.GetValues(typeof(Roles)))
             {
-                if (!await _roleManager.RoleExistsAsync(nameof(role)))
+                if (!await _roleManager.RoleExistsAsync(role.ToString()))
                 {
                     await _roleManager.CreateAsync(new IdentityRole { Name = role.ToString() });
                 }

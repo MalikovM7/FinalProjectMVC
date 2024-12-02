@@ -1,5 +1,4 @@
-﻿using FinalProjectMVC.Areas.Identity.Data;
-using FinalProjectMVC.Configurations;
+﻿using FinalProjectMVC.Configurations;
 using FinalProjectMVC.Data.Configurations;
 using FinalProjectMVC.Models;
 using Microsoft.AspNetCore.Identity;
@@ -9,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Org.BouncyCastle.Asn1.Ess;
 using System.Reflection.Emit;
 
-namespace FinalProjectMVC.Areas.Identity.Data;
+namespace FinalProjectMVC.Identity.Data;
 
 public class AppDbContext : IdentityDbContext<AppUser>
 {
@@ -56,7 +55,7 @@ public class AppDbContext : IdentityDbContext<AppUser>
         builder.ApplyConfiguration(new DriverLicenseConfiguration());
         builder.ApplyConfiguration(new ReservationConfiguration());
         builder.ApplyConfiguration(new StatisticConfiguration());
-        
+
 
     }
 }

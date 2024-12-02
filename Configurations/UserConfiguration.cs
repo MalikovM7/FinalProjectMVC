@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore;
-using FinalProjectMVC.Areas.Identity.Data;
 using FinalProjectMVC.Models;
+using FinalProjectMVC.Identity.Data;
 
 namespace FinalProjectMVC.Configurations
 {

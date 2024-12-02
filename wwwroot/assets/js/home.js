@@ -151,3 +151,26 @@ window.addEventListener('scroll', function() {
     logo.style.height ="80px"
   }
 });
+
+
+
+
+
+
+
+
+const registerPasswordIcons = document.querySelectorAll(".register-password-eye");
+
+registerPasswordIcons.forEach(icon => {
+    icon.addEventListener("click", function () {
+        if (this.previousElementSibling.getAttribute("type") == "password") {
+            this.previousElementSibling.setAttribute("type", "text");
+            this.classList.remove("fa-eye");
+            this.classList.add("fa-eye-slash");
+        } else {
+            this.previousElementSibling.setAttribute("type", "password");
+            this.classList.add("fa-eye");
+            this.classList.remove("fa-eye-slash");
+        }
+    });
+});

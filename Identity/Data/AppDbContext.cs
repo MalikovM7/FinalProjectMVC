@@ -52,7 +52,6 @@ public class AppDbContext : IdentityDbContext<AppUser>
         builder.ApplyConfiguration(new ContactFormConfiguration());
         builder.ApplyConfiguration(new FAQConfiguration());
         builder.ApplyConfiguration(new FeatureConfiguration());
-        builder.ApplyConfiguration(new DriverLicenseConfiguration());
         builder.ApplyConfiguration(new ReservationConfiguration());
         builder.ApplyConfiguration(new StatisticConfiguration());
 

@@ -6,17 +6,13 @@ namespace FinalProjectMVC.Models
     {
         public int Id { get; set; } // Primary Key
 
-        // Change the type of UserId to string
-        public string UserId { get; set; } // Foreign Key
 
-        // Navigation property
-        public AppUser AppUser { get; set; }
-
-        public int CarId { get; set; } // Foreign Key
-        public Car Car { get; set; }
+        // Reservation details
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
         public decimal TotalPrice { get; set; }
-        public string Status { get; set; } // e.g., Pending, Accepted, Rejected
+
+        // Status of the reservation (Pending, Accepted, Rejected)
+        public string Status { get; set; }
     }
 }

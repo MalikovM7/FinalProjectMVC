@@ -10,7 +10,5 @@ namespace FinalProjectMVC.Models
 
         public string ImagePath { get; set; }
 
-        public string AppUserId { get; set; } // Foreign key for AppUser
-        public AppUser AppUser { get; set; }
     }
 }

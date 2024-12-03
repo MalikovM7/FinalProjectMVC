@@ -1,6 +1,6 @@
 ﻿using FinalProjectMVC.Models;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace FinalProjectMVC.Configurations
 {
@@ -24,6 +24,10 @@ namespace FinalProjectMVC.Configurations
             builder.Property(c => c.Color)
                 .HasMaxLength(30);
 
+            builder.Property(c => c.Fueltype)
+                .IsRequired()
+                .HasMaxLength(50);
+
             builder.Property(c => c.LicensePlate)
                 .IsRequired()
                 .HasMaxLength(20);
@@ -39,21 +43,14 @@ namespace FinalProjectMVC.Configurations
                 .HasMaxLength(200);
 
             builder.Property(c => c.Location)
-    .IsRequired() // Ensure Location is required
-    .HasMaxLength(100); // Set maximum length for Location
+                .IsRequired()
+                .HasMaxLength(100);
 
             builder.Property(c => c.AvailabilityStart)
-                .IsRequired(); // Ensure AvailabilityStart is required
+                .IsRequired();
 
             builder.Property(c => c.AvailabilityEnd)
-                .IsRequired(); // Ensure AvailabilityEnd is required
-
-            // Optional: Relationships (if necessary)
-            // Example: One-to-Many with BlogPosts or FAQs
-            builder.HasMany<BlogPost>()
-                   .WithOne()
-                   .HasForeignKey(bp => bp.CarId);
+                .IsRequired();
         }
     }
-
 }

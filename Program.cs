@@ -10,7 +10,10 @@ namespace FinalProjectMVC
     {
         public static void Main(string[] args)
         {
+
             var builder = WebApplication.CreateBuilder(args);
+
+
             var connectionString = builder.Configuration.GetConnectionString("AppDbContextConnection") ?? throw new InvalidOperationException("Connection string 'AppDbContextConnection' not found.");
 
             builder.Services.Configure<AppSettings>(builder.Configuration.GetSection("Smtp"));
@@ -40,6 +43,7 @@ namespace FinalProjectMVC
             builder.Services.AddScoped<IHomePreviewService, HomePreviewService>();
             builder.Services.AddScoped<IAboutUsService, AboutUsService>();
             builder.Services.AddScoped<IfaqService, FaqService>();
+            builder.Services.AddScoped<IVehicleService, VehicleService>();
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();

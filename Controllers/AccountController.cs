@@ -45,9 +45,9 @@ namespace FinalProjectMVC.Controllers
         {
             if (!ModelState.IsValid)
             {
-
                 return View();
             }
+
             AppUser user = new()
             {
                 FullName = request.FullName,
@@ -62,10 +62,15 @@ namespace FinalProjectMVC.Controllers
                 foreach (var item in result.Errors)
                 {
                     ModelState.AddModelError(string.Empty, item.Description);
-
                 }
 
                 return View();
+            }
+
+            // Ensure the role exists before adding the user to it
+            if (!await _roleManager.RoleExistsAsync(Roles.SuperAdmin.ToString()))
+            {
+                await _roleManager.CreateAsync(new IdentityRole(Roles.SuperAdmin.ToString()));
             }
 
             await _userManager.AddToRoleAsync(user, Roles.SuperAdmin.ToString());
@@ -73,7 +78,7 @@ namespace FinalProjectMVC.Controllers
             string token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
             string url = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, token }, Request.Scheme, Request.Host.ToString());
 
-            string subject = "Rergister confirm email";
+            string subject = "Register confirmation email";
 
             string html = string.Empty;
 
@@ -84,22 +89,41 @@ namespace FinalProjectMVC.Controllers
 
             html = html.Replace("{{confirm-link}}", url);
 
-
             _emailService.Send(user.Email, subject, html);
 
             return RedirectToAction(nameof(VerifyEmail));
-
         }
 
         [HttpGet]
+        [HttpGet]
         public async Task<IActionResult> ConfirmEmail(string userId, string token)
         {
+            if (string.IsNullOrEmpty(userId) || string.IsNullOrEmpty(token))
+            {
+                // Handle error if userId or token is missing
+                return RedirectToAction("Error", "Home"); // Or any other page you prefer for errors
+            }
+
             var user = await _userManager.FindByIdAsync(userId);
 
-            await _userManager.ConfirmEmailAsync(user, token);
+            if (user == null)
+            {
+                // Handle case where the user cannot be found
+                return RedirectToAction("Error", "Home"); // Or a custom error page
+            }
 
-            await _signInManager.SignInAsync(user, false);
-            return RedirectToAction("Index", "Home");
+            var result = await _userManager.ConfirmEmailAsync(user, token);
+
+            if (result.Succeeded)
+            {
+                // Optionally sign the user in after confirming
+                await _signInManager.SignInAsync(user, false);
+
+                return RedirectToAction("Index", "Home");
+            }
+
+            // If confirmation failed, return an error page or message
+            return RedirectToAction("Error", "Home"); // Or handle failure as per your needs
         }
 
 

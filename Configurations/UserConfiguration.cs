@@ -1,7 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Microsoft.EntityFrameworkCore;
+﻿using FinalProjectMVC.Identity.Data;
 using FinalProjectMVC.Models;
-using FinalProjectMVC.Identity.Data;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace FinalProjectMVC.Configurations
 {
@@ -10,17 +10,28 @@ namespace FinalProjectMVC.Configurations
         public void Configure(EntityTypeBuilder<AppUser> builder)
         {
             builder.HasKey(u => u.Id);
-            builder.Property(x => x.FullName).HasMaxLength(100);
-            builder.Property(u => u.Email)
-                   .IsRequired()
-                   .HasMaxLength(100);
-            builder.Property(u => u.PasswordHash)
-                   .IsRequired();
 
-            builder.HasOne(au => au.DriverLicense)
-              .WithOne()
-              .HasForeignKey<DriverLicense>(dl => dl.Id) // Assuming DriverLicense.Id is used as FK
-              .OnDelete(DeleteBehavior.Cascade);
+            builder.Property(u => u.FullName)
+                .HasMaxLength(100);
+
+            builder.Property(u => u.Email)
+                .IsRequired()
+                .HasMaxLength(100);
+
+            builder.Property(u => u.PasswordHash)
+                .IsRequired();
+
+            builder.Property(u => u.DateOfBirth)
+                .IsRequired();
+
+            builder.Property(u => u.CreatedAt)
+                .IsRequired();
+
+            builder.Property(u => u.IsActive)
+                .HasDefaultValue(true);
+
+   
+    
         }
     }
 }

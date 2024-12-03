@@ -22,7 +22,7 @@ namespace FinalProjectMVC.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("FinalProjectMVC.Areas.Identity.Data.AppUser", b =>
+            modelBuilder.Entity("FinalProjectMVC.Identity.Data.AppUser", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
@@ -54,7 +54,9 @@ namespace FinalProjectMVC.Migrations
                         .HasColumnType("nvarchar(100)");
 
                     b.Property<bool>("IsActive")
-                        .HasColumnType("bit");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(true);
 
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");
@@ -174,9 +176,6 @@ namespace FinalProjectMVC.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("AppUserId")
-                        .HasColumnType("nvarchar(450)");
-
                     b.Property<DateTime>("AvailabilityEnd")
                         .HasColumnType("datetime2");
 
@@ -192,6 +191,11 @@ namespace FinalProjectMVC.Migrations
                         .IsRequired()
                         .HasMaxLength(30)
                         .HasColumnType("nvarchar(30)");
+
+                    b.Property<string>("Fueltype")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("ImagePath")
                         .IsRequired()
@@ -223,8 +227,6 @@ namespace FinalProjectMVC.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("AppUserId");
 
                     b.ToTable("Cars");
                 });
@@ -270,26 +272,17 @@ namespace FinalProjectMVC.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("AppUserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
                     b.Property<string>("ImagePath")
                         .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("LicenseNumber")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("AppUserId")
-                        .IsUnique();
-
-                    b.ToTable("DriverLicenses", (string)null);
+                    b.ToTable("DriverLicenses");
                 });
 
             modelBuilder.Entity("FinalProjectMVC.Models.FAQ", b =>
@@ -399,9 +392,6 @@ namespace FinalProjectMVC.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("CarId")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("EndDate")
                         .HasColumnType("datetime2");
 
@@ -416,15 +406,7 @@ namespace FinalProjectMVC.Migrations
                     b.Property<decimal>("TotalPrice")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("CarId");
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("Reservations", (string)null);
                 });
@@ -601,24 +583,6 @@ namespace FinalProjectMVC.Migrations
                     b.Navigation("Car");
                 });
 
-            modelBuilder.Entity("FinalProjectMVC.Models.Car", b =>
-                {
-                    b.HasOne("FinalProjectMVC.Areas.Identity.Data.AppUser", null)
-                        .WithMany("RentedCars")
-                        .HasForeignKey("AppUserId");
-                });
-
-            modelBuilder.Entity("FinalProjectMVC.Models.DriverLicense", b =>
-                {
-                    b.HasOne("FinalProjectMVC.Areas.Identity.Data.AppUser", "AppUser")
-                        .WithOne("DriverLicense")
-                        .HasForeignKey("FinalProjectMVC.Models.DriverLicense", "AppUserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("AppUser");
-                });
-
             modelBuilder.Entity("FinalProjectMVC.Models.Payment", b =>
                 {
                     b.HasOne("FinalProjectMVC.Models.Reservation", "Reservation")
@@ -628,25 +592,6 @@ namespace FinalProjectMVC.Migrations
                         .IsRequired();
 
                     b.Navigation("Reservation");
-                });
-
-            modelBuilder.Entity("FinalProjectMVC.Models.Reservation", b =>
-                {
-                    b.HasOne("FinalProjectMVC.Models.Car", "Car")
-                        .WithMany()
-                        .HasForeignKey("CarId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("FinalProjectMVC.Areas.Identity.Data.AppUser", "AppUser")
-                        .WithMany("Reservations")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("AppUser");
-
-                    b.Navigation("Car");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -660,7 +605,7 @@ namespace FinalProjectMVC.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("FinalProjectMVC.Areas.Identity.Data.AppUser", null)
+                    b.HasOne("FinalProjectMVC.Identity.Data.AppUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -669,7 +614,7 @@ namespace FinalProjectMVC.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("FinalProjectMVC.Areas.Identity.Data.AppUser", null)
+                    b.HasOne("FinalProjectMVC.Identity.Data.AppUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -684,7 +629,7 @@ namespace FinalProjectMVC.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("FinalProjectMVC.Areas.Identity.Data.AppUser", null)
+                    b.HasOne("FinalProjectMVC.Identity.Data.AppUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -693,21 +638,11 @@ namespace FinalProjectMVC.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("FinalProjectMVC.Areas.Identity.Data.AppUser", null)
+                    b.HasOne("FinalProjectMVC.Identity.Data.AppUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("FinalProjectMVC.Areas.Identity.Data.AppUser", b =>
-                {
-                    b.Navigation("DriverLicense")
-                        .IsRequired();
-
-                    b.Navigation("RentedCars");
-
-                    b.Navigation("Reservations");
                 });
 #pragma warning restore 612, 618
         }

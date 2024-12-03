@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\assets\\css\\home.css"
     },
     {
+      "Id": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\wwwroot\\assets\\css\\vehicles.css",
+      "PackagePath": "staticwebassets\\assets\\css\\vehicles.css"
+    },
+    {
       "Id": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\wwwroot\\assets\\img\\car-img.png",
       "PackagePath": "staticwebassets\\assets\\img\\car-img.png"
     },
@@ -39,6 +43,10 @@
     {
       "Id": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\wwwroot\\assets\\js\\home.js",
       "PackagePath": "staticwebassets\\assets\\js\\home.js"
+    },
+    {
+      "Id": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\wwwroot\\assets\\js\\vehicles.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vehicles.js"
     },
     {
       "Id": "C:\\Users\\vuqar\\Desktop\\Final Code\\FinalProjectMVC\\wwwroot\\favicon.ico",

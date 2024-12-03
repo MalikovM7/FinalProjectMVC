@@ -1,4 +1,7 @@
-﻿namespace FinalProjectMVC.Models
+﻿using FinalProjectMVC.Identity.Data;
+using System.Drawing;
+
+namespace FinalProjectMVC.Models
 {
     public class Car
     {
@@ -7,6 +10,9 @@
         public string Model { get; set; } 
         public int Year { get; set; }
         public string Color { get; set; }
+
+        public string Fueltype { get; set; }
+
         public string LicensePlate { get; set; }
         public decimal PricePerDay { get; set; }
         public bool IsAvailable { get; set; }

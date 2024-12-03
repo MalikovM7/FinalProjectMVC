@@ -39,6 +39,11 @@ namespace FinalProjectMVC.Controllers
                 _logger.LogWarning("No About Us content found in the database.");
             }
 
+            if (faqs == null || !faqs.Any())
+            {
+                _logger.LogWarning("No FAQS found in the database.");
+            }
+
             var model = new HomePageViewModel
             {
                 Previews = previews ?? Enumerable.Empty<HomePreview>(),

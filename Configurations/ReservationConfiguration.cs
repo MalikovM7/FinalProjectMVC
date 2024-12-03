@@ -1,6 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using FinalProjectMVC.Models;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using FinalProjectMVC.Models;
 
 namespace FinalProjectMVC.Data.Configurations
 {
@@ -13,16 +13,6 @@ namespace FinalProjectMVC.Data.Configurations
             // Set the primary key
             builder.HasKey(r => r.Id);
 
-            // Configure the foreign key for AppUser
-            builder.HasOne(r => r.AppUser)
-                .WithMany(au => au.Reservations)
-                .HasForeignKey(r => r.UserId);
-
-            // Configure the foreign key for Car
-            builder.HasOne(r => r.Car)
-                .WithMany()
-                .HasForeignKey(r => r.CarId);
-
             // Configure properties
             builder.Property(r => r.StartDate)
                 .IsRequired();
@@ -31,9 +21,11 @@ namespace FinalProjectMVC.Data.Configurations
                 .IsRequired();
 
             builder.Property(r => r.TotalPrice)
+                .IsRequired()
                 .HasColumnType("decimal(18,2)");
 
             builder.Property(r => r.Status)
+                .IsRequired()
                 .HasMaxLength(50);
         }
     }

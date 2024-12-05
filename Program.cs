@@ -3,7 +3,10 @@ using Microsoft.EntityFrameworkCore;
 using FinalProjectMVC.Helpers;
 using FinalProjectMVC.Services.Implementations;
 using FinalProjectMVC.Services.Interfaces;
-using FinalProjectMVC.Identity.Data;
+using FinalProjectMVC.Data;
+using FinalProjectMVC.Identity;
+using FinalProjectMVC.Repositories.Interfaces;
+using FinalProjectMVC.Repositories.Implementations;
 namespace FinalProjectMVC
 {
     public class Program
@@ -38,7 +41,8 @@ namespace FinalProjectMVC
                 .AddEntityFrameworkStores<AppDbContext>()
                 .AddDefaultTokenProviders();
 
-
+            builder.Services.AddScoped<IFaqRepository, FAQRepository>();
+            builder.Services.AddScoped<IHomePreviewRepository, HomePreviewRepository>();
             builder.Services.AddScoped<IEmailService, EmailService>();
             builder.Services.AddScoped<IHomePreviewService, HomePreviewService>();
             builder.Services.AddScoped<IAboutUsService, AboutUsService>();

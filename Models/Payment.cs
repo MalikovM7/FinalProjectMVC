@@ -1,8 +1,10 @@
-﻿namespace FinalProjectMVC.Models
+﻿using FinalProjectMVC.Common;
+
+namespace FinalProjectMVC.Models
 {
-    public class Payment
+    public class Payment : BaseEntity
     {
-        public int Id { get; set; } // Primary Key
+       
         public int ReservationId { get; set; } // Foreign Key
         public Reservation Reservation { get; set; }
         public decimal Amount { get; set; }

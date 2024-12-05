@@ -1,10 +1,12 @@
-﻿using FinalProjectMVC.Identity.Data;
+﻿
+
+using FinalProjectMVC.Common;
 
 namespace FinalProjectMVC.Models
 {
-    public class Reservation
+    public class Reservation : BaseEntity
     {
-        public int Id { get; set; } // Primary Key
+        
 
 
         // Reservation details

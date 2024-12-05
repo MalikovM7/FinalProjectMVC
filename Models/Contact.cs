@@ -1,8 +1,10 @@
-﻿namespace FinalProjectMVC.Models
+﻿using FinalProjectMVC.Common;
+
+namespace FinalProjectMVC.Models
 {
-    public class Contact
+    public class Contact : BaseEntity
     {
-        public int Id { get; set; } // Primary key
+        
         public string Name { get; set; }
         public string Email { get; set; }
         public string Subject { get; set; }

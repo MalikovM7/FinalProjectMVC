@@ -8,7 +8,7 @@ namespace FinalProjectMVC.Configurations
     {
         public void Configure(EntityTypeBuilder<Car> builder)
         {
-            builder.HasKey(c => c.Id);
+            
 
             builder.Property(c => c.Brand)
                 .IsRequired()

@@ -11,8 +11,7 @@ namespace FinalProjectMVC.Data.Configurations
             // Define the table name
             builder.ToTable("Contacts");
 
-            // Set the primary key
-            builder.HasKey(c => c.Id);
+            
 
             // Configure properties
             builder.Property(c => c.Name)

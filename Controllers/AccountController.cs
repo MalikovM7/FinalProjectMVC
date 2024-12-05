@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using FinalProjectMVC.Helpers.Enums;
 using FinalProjectMVC.Services.Interfaces;
-using FinalProjectMVC.Identity.Data;
+using FinalProjectMVC.Identity;
 
 namespace FinalProjectMVC.Controllers
 {

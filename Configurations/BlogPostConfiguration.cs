@@ -8,7 +8,7 @@ namespace FinalProjectMVC.Configurations
     {
         public void Configure(EntityTypeBuilder<BlogPost> builder)
         {
-            builder.HasKey(bp => bp.Id);
+            
 
             builder.Property(bp => bp.Title)
                 .IsRequired()
@@ -17,8 +17,7 @@ namespace FinalProjectMVC.Configurations
             builder.Property(bp => bp.Content)
                 .IsRequired();
 
-            builder.Property(bp => bp.CreatedAt)
-                .IsRequired();
+            
 
             // Foreign key relationship with Car
             builder.HasOne(bp => bp.Car)

@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace FinalProjectMVC.Controllers
 {
+    //[Route("Home")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -25,7 +26,7 @@ namespace FinalProjectMVC.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var previews = await _homePreviewService.GetHomePreviewsAsync();
+            var previews = await _homePreviewService.GetPreviewsAsync();
             var aboutUsContent = await _aboutUsService.GetAboutUsContentAsync();
             var faqs = await _faqService.GetFAQSAsync();
 

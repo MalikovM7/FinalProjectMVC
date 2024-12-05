@@ -10,8 +10,7 @@ namespace FinalProjectMVC.Data.Configurations
         {
             builder.ToTable("Reservations");
 
-            // Set the primary key
-            builder.HasKey(r => r.Id);
+           
 
             // Configure properties
             builder.Property(r => r.StartDate)

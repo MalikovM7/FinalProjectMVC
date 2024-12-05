@@ -1,4 +1,4 @@
-﻿using FinalProjectMVC.Identity.Data;
+﻿using FinalProjectMVC.Identity;
 using FinalProjectMVC.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;

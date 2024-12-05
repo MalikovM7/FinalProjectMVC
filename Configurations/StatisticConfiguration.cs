@@ -11,8 +11,7 @@ namespace FinalProjectMVC.Data.Configurations
             // Define the table name
             builder.ToTable("Statistics");
 
-            // Set the primary key
-            builder.HasKey(s => s.Id);
+            
 
             // Configure properties
             builder.Property(s => s.IconClass)

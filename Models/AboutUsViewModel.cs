@@ -1,8 +1,10 @@
-﻿namespace FinalProjectMVC.Models
+﻿using FinalProjectMVC.Common;
+
+namespace FinalProjectMVC.Models
 {
-    public class AboutUsViewModel
+    public class AboutUsViewModel : BaseEntity
     {
-        public int Id { get; set; }    
+        
         public string Title { get; set; }
         public string Subtitle { get; set; }
         public string Description { get; set; }

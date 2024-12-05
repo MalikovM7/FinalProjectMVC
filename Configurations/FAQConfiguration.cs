@@ -8,7 +8,7 @@ namespace FinalProjectMVC.Configurations
     {
         public void Configure(EntityTypeBuilder<FAQ> builder)
         {
-            builder.HasKey(f => f.Id);
+            
 
             builder.Property(f => f.Question).IsRequired().HasMaxLength(200);
             builder.Property(f => f.Answer).IsRequired().HasMaxLength(500);

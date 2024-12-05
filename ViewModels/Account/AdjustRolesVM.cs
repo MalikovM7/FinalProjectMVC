@@ -1,4 +1,4 @@
-﻿using FinalProjectMVC.Identity.Data;
+﻿using FinalProjectMVC.Identity;
 using Microsoft.AspNetCore.Identity;
 
 

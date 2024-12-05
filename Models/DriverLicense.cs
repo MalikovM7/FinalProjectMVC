@@ -1,10 +1,12 @@
-﻿using FinalProjectMVC.Identity.Data;
+﻿
+
+using FinalProjectMVC.Common;
 
 namespace FinalProjectMVC.Models
 {
-    public class DriverLicense
+    public class DriverLicense : BaseEntity
     {
-        public int Id { get; set; } 
+        
 
         public string LicenseNumber { get; set; } 
 

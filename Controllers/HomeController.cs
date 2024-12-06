@@ -1,14 +1,13 @@
 using FinalProjectMVC.Models;
-using FinalProjectMVC.Services.Implementations;
 using FinalProjectMVC.Services.Interfaces;
 using FinalProjectMVC.ViewModels.Home;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace FinalProjectMVC.Controllers
 {
-    //[Route("Home")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -26,13 +25,17 @@ namespace FinalProjectMVC.Controllers
 
         public async Task<IActionResult> Index()
         {
+            // Fetch only selected previews
             var previews = await _homePreviewService.GetPreviewsAsync();
-            var aboutUsContent = await _aboutUsService.GetAboutUsContentAsync();
+            var selectedPreviews = previews.Where(p => p.IsSelected).ToList();
+
+            var aboutUsContent = await _aboutUsService.GetAboutUsAsync();
             var faqs = await _faqService.GetFAQSAsync();
 
-            if (previews == null || !previews.Any())
+            // Logging if data is missing
+            if (!selectedPreviews.Any())
             {
-                _logger.LogWarning("No home preview content found in the database.");
+                _logger.LogWarning("No selected home preview content found in the database.");
             }
 
             if (aboutUsContent == null || !aboutUsContent.Any())
@@ -42,12 +45,13 @@ namespace FinalProjectMVC.Controllers
 
             if (faqs == null || !faqs.Any())
             {
-                _logger.LogWarning("No FAQS found in the database.");
+                _logger.LogWarning("No FAQs found in the database.");
             }
 
+            // Populate ViewModel
             var model = new HomePageViewModel
             {
-                Previews = previews ?? Enumerable.Empty<HomePreview>(),
+                Previews = selectedPreviews ?? Enumerable.Empty<HomePreview>(),
                 AboutUs = aboutUsContent ?? Enumerable.Empty<AboutUsViewModel>(),
                 FAQs = faqs ?? Enumerable.Empty<FAQ>()
             };

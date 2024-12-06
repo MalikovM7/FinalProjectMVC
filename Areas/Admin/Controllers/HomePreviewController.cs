@@ -30,6 +30,7 @@ namespace FinalProjectMVC.Areas.Admin.Controllers
                Title=x.Title,
                Description=x.Description,
                ImagePath=x.ImagePath,
+               IsSelected=x.IsSelected,
                
            }).ToList();
 
@@ -50,7 +51,8 @@ namespace FinalProjectMVC.Areas.Admin.Controllers
                 Id = preview.Id,
                 Title = preview.Title,
                 Description = preview.Description,
-                ImagePath = preview.ImagePath
+                ImagePath = preview.ImagePath,
+                IsSelected = preview.IsSelected
             };
 
             return View(previewVM);
@@ -73,7 +75,8 @@ namespace FinalProjectMVC.Areas.Admin.Controllers
                 {
                     Title = previewVM.Title,
                     Description = previewVM.Description,
-                    ImagePath = previewVM.ImagePath
+                    ImagePath = previewVM.ImagePath,
+                    IsSelected = previewVM.IsSelected
                 };
 
                 await _homePreviewService.AddPreviewAsync(preview);
@@ -97,7 +100,8 @@ namespace FinalProjectMVC.Areas.Admin.Controllers
                 Id = preview.Id,
                 Title = preview.Title,
                 Description= preview.Description,
-                ImagePath = preview.ImagePath
+                ImagePath = preview.ImagePath,
+                IsSelected = preview.IsSelected
             };
 
             return View(previewVM);
@@ -122,7 +126,8 @@ namespace FinalProjectMVC.Areas.Admin.Controllers
                         Id = previewVM.Id,
                         Title= previewVM.Title,
                         Description= previewVM.Description,
-                        ImagePath= previewVM.ImagePath
+                        ImagePath= previewVM.ImagePath,
+                        IsSelected = previewVM.IsSelected
                     };
 
                     await _homePreviewService.UpdatePreviewAsync(id, preview);
@@ -152,7 +157,8 @@ namespace FinalProjectMVC.Areas.Admin.Controllers
                 Id = preview.Id,
                 Title = preview.Title,
                 Description = preview.Description,
-                ImagePath = preview.ImagePath
+                ImagePath = preview.ImagePath,
+                IsSelected = preview.IsSelected
             };
 
             return View(previewVM);
@@ -164,6 +170,39 @@ namespace FinalProjectMVC.Areas.Admin.Controllers
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             await _homePreviewService.DeletePreviewAsync(id);
+            return RedirectToAction(nameof(Index));
+        }
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> MarkAsSelected(int id)
+        {
+            try
+            {
+                await _homePreviewService.MarkAsSelectedAsync(id);
+            }
+            catch (NotFoundException)
+            {
+                return NotFound();
+            }
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> UnmarkAsSelected(int id)
+        {
+            try
+            {
+                await _homePreviewService.UnmarkAsSelectedAsync(id);
+            }
+            catch (NotFoundException)
+            {
+                return NotFound();
+            }
+
             return RedirectToAction(nameof(Index));
         }
 

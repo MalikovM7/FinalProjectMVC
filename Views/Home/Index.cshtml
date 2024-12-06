@@ -7,7 +7,7 @@
 <!-- First form of the page -->
 
     <div class="deals-container">
-            @foreach (var preview in Model.Previews)
+            @foreach (var preview in Model.Previews.Where(p => p.IsSelected))
             {
                 <div class="deals-text">
                     <h1>@preview.Title</h1>
@@ -16,11 +16,15 @@
                 <div class="car-image">
                     @if (!string.IsNullOrEmpty(preview.ImagePath))
                     {
-                        <img src="@preview.ImagePath" alt="Car" class="car-img">
+                        <img src="@preview.ImagePath" alt="@preview.Title" class="car-img">
                     }
                 </div>
             }
-        <div class="search-container">
+   
+
+   
+            
+            <div class="search-container">
             <div class="search-header">
                 <h3>Search for Cheap Rental Cars Wherever You Are</h3>
             </div>

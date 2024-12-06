@@ -12,6 +12,7 @@
                 <th scope="col">Title</th>
                 <th scope="col">Description</th>
                 <th scope="col">Image</th>
+                <th scope="col">Is Selected</th>
                 <th scope="col" class="text-center">Actions</th>
             </tr>
         </thead>
@@ -26,11 +27,35 @@
                         <td>@preview.Description</td>
                         <td><img src="@preview.ImagePath" alt="@preview.Title" style="width: 100px;"></td>
                         <td class="text-center">
+                            @if (preview.IsSelected)
+                            {
+                                <span class="badge bg-success">Selected</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-secondary">Not Selected</span>
+                            }
+                        </td>
+                        <td class="text-center">
                             <a asp-action="Details" asp-route-id="@preview.Id" class="btn btn-info btn-sm">Details</a>
                             <a asp-action="Edit" asp-route-id="@preview.Id" class="btn btn-warning btn-sm mx-1">Edit</a>
                             <form asp-action="Delete" asp-route-id="@preview.Id" method="post" class="d-inline">
-                                <button type="submit" class="btn btn-danger">Delete</button>
+                                <button type="submit" class="btn btn-danger btn-sm">Delete</button>
                             </form>
+                            @if (preview.IsSelected)
+                            {
+                                <form asp-action="UnmarkAsSelected" method="post" class="d-inline">
+                                    <input type="hidden" name="id" value="@preview.Id" />
+                                    <button type="submit" class="btn btn-secondary btn-sm mx-1">Deselect</button>
+                                </form>
+                            }
+                            else
+                            {
+                                <form asp-action="MarkAsSelected" method="post" class="d-inline">
+                                    <input type="hidden" name="id" value="@preview.Id" />
+                                    <button type="submit" class="btn btn-success btn-sm mx-1">Select</button>
+                                </form>
+                            }
                         </td>
                     </tr>
                 }
@@ -38,7 +63,7 @@
             else
             {
                 <tr>
-                    <td colspan="5" class="text-center text-muted">No Previews available. Please add new Previews.</td>
+                    <td colspan="6" class="text-center text-muted">No Previews available. Please add new Previews.</td>
                 </tr>
             }
         </tbody>

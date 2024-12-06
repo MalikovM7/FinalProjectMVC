@@ -3,6 +3,7 @@ using FinalProjectMVC.Exceptions;
 using FinalProjectMVC.Models;
 using FinalProjectMVC.Repositories.Interfaces;
 using FinalProjectMVC.Services.Interfaces;
+using NuGet.Protocol.Core.Types;
 
 
 namespace FinalProjectMVC.Services.Implementations
@@ -48,6 +49,24 @@ namespace FinalProjectMVC.Services.Implementations
         public async Task<HomePreview> GetPreviewByIdAsync(int id)
         {
             return await _previewrepository.GetByIdAsync(id);
+        }
+
+        public async Task MarkAsSelectedAsync(int id)
+        {
+            var preview = await _previewrepository.GetByIdAsync(id);
+            if (preview == null) throw new NotFoundException(ExceptionMessages.NotFoundMessage);
+
+            preview.IsSelected = true;
+            await _previewrepository.EditAsync(preview);
+        }
+
+        public async Task UnmarkAsSelectedAsync(int id)
+        {
+            var preview = await _previewrepository.GetByIdAsync(id);
+            if (preview == null) throw new Exception("Preview not found.");
+
+            preview.IsSelected = false;
+            await _previewrepository.EditAsync(preview);
         }
     }
 }

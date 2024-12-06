@@ -9,5 +9,8 @@ namespace FinalProjectMVC.Services.Interfaces
         Task AddPreviewAsync(HomePreview homePreview);
         Task UpdatePreviewAsync(int id, HomePreview homePreview);
         Task DeletePreviewAsync(int id);
+
+        Task MarkAsSelectedAsync(int id);
+        Task UnmarkAsSelectedAsync(int id);
     }
 }

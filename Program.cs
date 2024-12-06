@@ -43,6 +43,7 @@ namespace FinalProjectMVC
 
             builder.Services.AddScoped<IFaqRepository, FAQRepository>();
             builder.Services.AddScoped<IHomePreviewRepository, HomePreviewRepository>();
+            builder.Services.AddScoped<IAboutUsRepository, AboutUsRepository>();
             builder.Services.AddScoped<IEmailService, EmailService>();
             builder.Services.AddScoped<IHomePreviewService, HomePreviewService>();
             builder.Services.AddScoped<IAboutUsService, AboutUsService>();
